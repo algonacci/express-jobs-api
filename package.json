@@ -19,5 +19,22 @@
   "bugs": {
     "url": "https://github.com/algonacci/express-jobs-api/issues"
   },
-  "homepage": "https://github.com/algonacci/express-jobs-api#readme"
+  "homepage": "https://github.com/algonacci/express-jobs-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-error": "^0.0.2",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.0.1",
+    "http-status-codes": "^2.2.0",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "rate-limiter": "^0.2.0",
+    "swagger-ui-express": "^4.6.0",
+    "xss-clean": "^0.1.1",
+    "yamljs": "^0.3.0"
+  }
 }
