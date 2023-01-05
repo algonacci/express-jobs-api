@@ -1,13 +1,9 @@
 const mongoose = require("mongoose");
 
 const connectDB = (url) => {
+  mongoose.set("strictQuery", true);
   console.log("💽 [DATABASE] MongoDB Connection Ready!");
-  return mongoose.connect(url, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-    useUnifiedTopology: true,
-  });
+  return mongoose.connect(url);
 };
 
 module.exports = connectDB;
